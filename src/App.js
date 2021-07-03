@@ -1,10 +1,11 @@
 import React from 'react'
 import "./App.css"
+import Router from "./Router.js"
 
 function App() {
   return (
     <div>
-      <h1>This is Entry Point of React App</h1>
+      <Router />
     </div>
   )
 }
